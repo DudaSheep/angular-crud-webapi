@@ -1,13 +1,13 @@
 # Projeto Angular WebApi
 
 ## Pagina Inicial (Home)
-![home](imagens\print.png)
+![home](imagens\print.PNG)
 
 ## Pagina de Cadastro
-![cadastro](imagens\print2.png)
+![cadastro](imagens\print2.PNG)
 
 ## Pagina de Exclusão
-![excluir](imagens\print3.png)
+![excluir](imagens\print3.PNG)
 
 
 
