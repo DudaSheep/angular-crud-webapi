@@ -1,0 +1,40 @@
+<mat-card>
+    <h1>{{btnTitulo}}</h1>
+
+
+    <form [formGroup]="planetaForm" (ngSubmit)="submit()" #formDit="ngForm">
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label for="">Nome:</mat-label>
+                <input matInput type="text" formControlName="nomePlaneta" placeholder="Insira o nome do planeta!"
+                    required>
+            </mat-form-field>
+        </div>
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label for="">Gravidade:</mat-label>
+                <input matInput type="number" formControlName="gravidade" placeholder="Insira a gravidade" required>
+            </mat-form-field>
+        </div>
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label for="">Rotação:</mat-label>
+                <input matInput type="number" formControlName="rotacao" placeholder="Insira a rotação" required>
+            </mat-form-field>
+        </div>
+
+        <div class="input-box">
+            <mat-form-field>
+                <mat-label for="">Temperatura:</mat-label>
+                <input matInput type="text" formControlName="temperatura" placeholder="Insira a temperatura" required>
+            </mat-form-field>
+        </div>
+
+        <div class="btn-box">
+            <button type="submit" [disabled]="!planetaForm.valid" mat-raised-button color="accent">{{btnAcao}}</button>
+            <button routerLink="" mat-raised-button>Voltar</button>
+        </div>
+    </form>
+</mat-card>

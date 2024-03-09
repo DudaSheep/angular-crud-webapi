@@ -1,0 +1,14 @@
+<mat-card>
+    <div *ngIf="planeta">
+        <h1 style="text-align: center;">Deseja excluir?</h1>
+        <div>
+            <h2>Planeta:</h2>
+            <p>{{planeta.nomePlaneta}}</p>
+        </div>
+
+        <div>
+            <button mat-raised-button color="warn" (click)="Excluir()">Confirmar Exclusão</button>
+            <button mat-raised-button (click)="Cancelar()">Voltar</button>
+        </div>
+    </div>
+</mat-card>

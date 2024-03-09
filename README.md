@@ -1,3 +1,16 @@
+# Projeto Angular WebApi
+
+## Pagina Inicial (Home)
+<img src="\planets_angular\Planets.UI\imagens\print.png" alt="home">
+
+## Pagina de Cadastro
+<img src="\planets_angular\Planets.UI\imagens\print2.png" alt=" cadastro">
+
+## Pagina de Exclusão
+<img src="\planets_angular\imagens\print3.png" alt="excluir">
+
+
+
 # PlanetsUI
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
