@@ -1,13 +1,13 @@
 # Projeto Angular WebApi
 
 ## Pagina Inicial (Home)
-<img src="\planets_angular\Planets.UI\imagens\print.PNG" alt="home">
+![home](imagens\print.png)
 
 ## Pagina de Cadastro
-<img src="\planets_angular\Planets.UI\imagens\print2.PNG" alt=" cadastro">
+![cadastro](imagens\print2.png)
 
 ## Pagina de Exclusão
-<img src="\planets_angular\Planets.UI\imagens\print3.PNG" alt="excluir">
+![excluir](imagens\print3.png)
 
 
 
